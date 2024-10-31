@@ -1,6 +1,6 @@
-contador = 1
+contador = 0
 
-def incrementar(n):
+def incrementar():
     global contador
-    contador += n
+    contador += 1
     print(f"Contador: {contador}")
